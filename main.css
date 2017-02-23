@@ -1,0 +1,41 @@
+body{
+	text-align:center;
+	font-family: Droid Serif;
+	padding:0px;
+	margin: 0px;
+	}
+header,section,footer,aside,nav,article,hgroup{
+	display:block;
+}
+#head
+{
+	background: #fa1;
+	color:white;
+	font-size: 24px;
+	text-shadow:1px 1px 1px white;
+}
+#buttons
+{
+	float: left;
+	width: 300px;
+}
+#can
+{
+	float: left;
+	width: 1000px;
+	border: 1px solid black;
+}
+select
+{
+	background-color: #4b7;
+	color:white;
+	text-shadow:0.2px 0.2px 0.2px white,1px 1px 1px black;
+	border:0px solid red;
+	height: 40px;
+	width: 240px;
+	padding:4px;
+}
+option
+{
+	background: #465;	
+}

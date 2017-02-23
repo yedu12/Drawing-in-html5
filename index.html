@@ -1,0 +1,44 @@
+<DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset="utf-8"/>
+	<title>My Fst HTML5</title>
+	<script src="y.js"></script>
+	<link type="text/css" rel="stylesheet" href="main.css"/>
+</head>
+<body>
+<header id='head'>Drawing Sheet</header>
+	<section id="buttons">
+	Select color:
+	<select id="color" >
+	<option value="black">Black</option>
+	<option value="red">Red</option>
+	<option value="blue">Blue</option>
+	<option value="deeppink">Pink</option>
+	<option value="white">White</option>
+	</select><br/><br/>
+	Background color:
+	<select id="bgcolor" onchange='doFirst()'>
+	<option value="lightgreen">LightGreen</option>
+	<option value="pink">Pink</option>
+	<option value="cyan">Cyan</option>
+	<option value="green">Green</option>
+	<option value="Yellow">Yellow</option>
+	<option value="black">Black</option>
+	</select><br/><br/>
+	Select Brush:
+	<select id="brush" >
+	<option value="defa">Default</option>
+	<option value="box">Box</option>
+	<option value="bc">BiG_Circle</option>
+	<option value="sc">Small_Circle</option>
+	<option value="fc">Filled_Circle</option>
+	</select>
+	</section>
+	<section id='can'>
+		<canvas id="canvas" width="1000px" height="500px"></canvas>
+	</section>
+
+
+</body>
+</html>
